@@ -1,1 +1,21 @@
 // Hier komt mijn plan van aanpak
+
+Maak 3 activities -> het beginscherm, het spel en het eindscherm
+
+Op het beginscherm moeten minimaal 3 foto's komen om aan te klikken en een knop voor de moeilijkheidsgraad
+Er zijn 3 niveau's: makkelijk is een 3x3 puzzel, gemiddeld (de default moeilijkheid) 4x4 en moeilijk is een 5x5 puzzel
+de foto's moeten onberwerkt getoond worden op het scherm. Als er op een foto wordt geklikt moet de volgende activity (GamePlay) gestart worden
+
+Het spel
+begin met het tonen van de oplossing, dit is de in n stukken gehakte foto met een leeg vakje rechtsonder. Na drie seconden veranderd
+dit beeld naar een oplosbare configuratie: 15,14,13,12,11,10,9,8,7,6,5,4,3,1,2,leeg. Maak ook een submenu waarin de puzzel gereset kan worden,
+de difficulty aangepast kan worden en een link naar het beginscherm
+Als op een vakje wordt geklikt moet dit vakje verwisseld worden met het lege vakje. Als dit niet mogelijk is doet het spel niks.
+Bij een klik moet er 1 zet opgeteld worden bij de zetcounter variabele
+Indien de configuratie 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,leeg is (dus opgelost) moet een nieuwe activity YouWin gestart worden.
+
+Het eindscherm
+Zeg gefeliciteerd, geef de zetcounter variabele en maak een knopje naar het beginscherm
+
+Onthoud alles in de GamePlay activity: de huidige state, de difficulty en de zetcounter als de app wordt afgesloten.
+Als de app weer wordt opgestart moet de gebruiker verdergaan waar hij gebleven was
