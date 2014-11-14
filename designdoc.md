@@ -1,6 +1,6 @@
 # Hier is het designdoc
 
-Activities
+Activities en Methods
 -	StartScreen
 o	Alleen een plaatje en een Button (geen returnwaarde) om naar ImageSelection te gaan
 -	ImageSelection
