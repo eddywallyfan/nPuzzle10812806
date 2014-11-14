@@ -33,3 +33,4 @@ De app moet kunnen werken op android 2.1 (API 7) en hoger.
 Ik denk geen extra ondersteunende libraries nodig te hebben,
 omdat de menu functie en de verschillende layouts al vrij lang ondersteund worden.
 
+![mockup] (https://github.com/eddywallyfan/nPuzzle10812806/blob/master/doc/Mockup.jpg)
