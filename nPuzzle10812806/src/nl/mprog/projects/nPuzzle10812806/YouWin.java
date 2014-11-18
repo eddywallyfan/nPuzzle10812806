@@ -1,3 +1,7 @@
+/* John Wesselingh
+ * 10812806
+ * ImageSelection menu
+ */
 package nl.mprog.projects.nPuzzle10812806;
 
 import android.content.Intent;

@@ -8,5 +8,5 @@
     <string name="title_activity_you_win">YouWin</string>
     <string name="you_win">Gefeliciteerd, je hebt gewonnen!</string>
 	<string name="new_game">Nieuw spel</string>
-	<string name="difficulty">Kies de moeilijkheid</string>
+	<string name="difficulty">Nieuw spel</string>
 </resources>
