@@ -25,6 +25,7 @@
 *Difficulty*
 
 	Start op in een klein scherm (niet fill parent)
+	Start als op de menuknop wordt gedrukt
 	en laat je kiezen uit 3 Buttons voor de verschillende moeilijkheidsgraden
 
 ##API’s
@@ -33,6 +34,8 @@ De app moet kunnen werken op android 2.1 (API 7) en hoger.
 Ik denk geen extra ondersteunende libraries nodig te hebben,
 omdat de menu functie en de verschillende layouts al vrij lang ondersteund worden.
 De listview maakt gebruik van de listActivity
+Voor het gebruik van een menu voor difficulty maak ik een xml bestand aan in res/menu
+En voor de bitmaps maak ik gebruik van de bitmapfactory
 
 
 ## Mockup
