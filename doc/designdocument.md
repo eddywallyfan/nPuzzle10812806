@@ -5,7 +5,7 @@
 	Alleen een plaatje en een Button (geen returnwaarde) om naar ImageSelection te gaan
 *ImageSelection*
 
-	Wordt een listView met een vaste Button voor Difficulty De foto’s  komen in de cellen te staan. 
+	Wordt een listView. De foto’s  komen in de cellen te staan. 
 	Als er op wordt geklikt linkt hij door naar GamePlay.
 	Onthoud de Difficulty en de foto
 *GamePlay*
