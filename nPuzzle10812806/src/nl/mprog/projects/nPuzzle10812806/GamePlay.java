@@ -1,6 +1,6 @@
 /* John Wesselingh
  * 10812806
- * ImageSelection menu
+ * Speelscherm
  */
 package nl.mprog.projects.nPuzzle10812806;
 
@@ -35,4 +35,5 @@ public class GamePlay extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	// OnFinished ga naar YouWin
 }

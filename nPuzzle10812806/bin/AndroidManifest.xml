@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ImageSelection"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +29,14 @@
         <activity
             android:name=".YouWin"
             android:label="@string/title_activity_you_win" >
+        </activity>
+        <activity
+            android:name=".Difficulty"
+            android:label="@string/title_activity_difficulty" >
+        </activity>
+        <activity
+            android:name=".ImageSelection"
+            android:label="@string/app_name" >
         </activity>
     </application>
 

@@ -4,43 +4,38 @@
  */
 package nl.mprog.projects.nPuzzle10812806;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-
-
-public class ImageSelection extends ActionBarActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_image_selection);
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.image_selection, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-    /* Deze gaat naar een andere activity, maar moet naar subscherm
-    * TODO
-    public void difficulty(View view) {
-    Intent intent = new Intent (this, difficulty.class);
-    startActivity(intent);
-    }*/
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+//import android.content.Intent;
+ 
+public class ImageSelection extends ListActivity {
+ 
+	static final String[] FOTO = new String[] { "Foto 1", "Foto 2", "Foto 3"};
+ 
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+ 
+		setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item,FOTO));
+ 
+		ListView listView = getListView();
+		listView.setTextFilterEnabled(true);
+ 
+		listView.setOnItemClickListener(new OnItemClickListener() {
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+			    // When clicked, show a toast with the TextView text
+				Intent newActivity = new Intent(this, GamePlay.class);     
+                startActivity(newActivity);
+			}
+		});
+ 
+	}
+	
 }

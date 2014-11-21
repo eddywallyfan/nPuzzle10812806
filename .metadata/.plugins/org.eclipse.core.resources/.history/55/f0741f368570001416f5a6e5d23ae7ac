@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nPuzzle10812806</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_play">GamePlay</string>
+    <string name="title_activity_you_win">YouWin</string>
+    <string name="you_win">Gefeliciteerd, je hebt gewonnen!</string>
+    <string name="new_game">Nieuw spel</string>
+    <string name="difficulty">Kies de moeilijkheid</string>
+    <string name="title_activity_difficulty">Difficulty</string>
+
+</resources>
