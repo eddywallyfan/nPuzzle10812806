@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.mprog.projects.nPuzzle10812806.MainActivity" >
+
+    <item
+	    android:id="@+id/makkelijk"
+	    android:title="@string/makkelijk" />
+	
+	<item
+	    android:id="@+id/gemiddeld"
+	    android:title="@string/gemiddeld" />
+	
+	<item
+	    android:id="@+id/moeilijk"
+	    android:title="@string/moeilijk" />
+	
+	<item
+	    android:id="@+id/terug_naar_main"
+	    android:title="@string/new_game"
+
+</menu>

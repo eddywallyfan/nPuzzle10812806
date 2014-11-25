@@ -4,8 +4,9 @@
  */
 package nl.mprog.projects.nPuzzle10812806;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -25,15 +26,34 @@ public class GamePlay extends ActionBarActivity {
 	}
 
 	@Override
+	// Deze methode zorgt ervoor dat de items in het enu goed worden doorgelinkt naar de juiste activity
+	// of de juiste moeilijkheidsgraad
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
+		switch(item.getItemId()) {
+	    case R.id.makkelijk:
+	        Intent intent = new Intent(this, GamePlay.class);
+	        this.startActivity(intent);
+	        break;
+	    case R.id.middle:
+	        // another startActivity, this is for item with id "menu_item2"
+	        Intent intent1 = new Intent(this, GamePlay.class);
+	        this.startActivity(intent1);
+	    	break;
+	    case R.id.moeilijk:
+	        // another startActivity, this is for item with id "menu_item2"
+	        Intent intent2 = new Intent(this, GamePlay.class);
+	        this.startActivity(intent2);
+	    	break;
+	    case R.id.terug_naar_main:
+	        // another startActivity, this is for item with id "menu_item2"
+	        Intent intent3 = new Intent(this, ImageSelection.class);
+	        this.startActivity(intent3);
+	    	break;
+	    default:
+	        return super.onOptionsItemSelected(item);
+	    }
+
+	    return true;
 	}
 	// OnFinished ga naar YouWin
 }

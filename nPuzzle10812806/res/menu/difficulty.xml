@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-	
-	<item
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.mprog.projects.nPuzzle10812806.MainActivity" >
+
+    <item
 	    android:id="@+id/makkelijk"
 	    android:title="@string/makkelijk" />
 	
@@ -12,6 +14,5 @@
 	<item
 	    android:id="@+id/moeilijk"
 	    android:title="@string/moeilijk" />
-    <menu xmlns:android="http://schemas.android.com/apk/res/android"></menu>
 
 </menu>
