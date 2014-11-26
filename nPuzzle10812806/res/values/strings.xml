@@ -14,5 +14,10 @@
     <string name="gemiddeld">Gemiddeld</string>
     <string name="moeilijk">Moeilijk</string>
     <string name="title_activity_main">MainActivity</string>
+    <string-array name= "FOTO">
+        <item >Foto 1</item>
+        <item >Foto 2</item>
+    	<item >Foto 3</item>
+    </string-array>
 
 </resources>

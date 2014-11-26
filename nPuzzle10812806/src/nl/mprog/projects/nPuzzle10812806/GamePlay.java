@@ -26,7 +26,7 @@ public class GamePlay extends ActionBarActivity {
 	}
 
 	@Override
-	// Deze methode zorgt ervoor dat de items in het enu goed worden doorgelinkt naar de juiste activity
+	// Deze methode zorgt ervoor dat de items in het menu goed worden doorgelinkt naar de juiste activity
 	// of de juiste moeilijkheidsgraad
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch(item.getItemId()) {
@@ -55,5 +55,7 @@ public class GamePlay extends ActionBarActivity {
 
 	    return true;
 	}
+	// Spel
+	
 	// OnFinished ga naar YouWin
 }

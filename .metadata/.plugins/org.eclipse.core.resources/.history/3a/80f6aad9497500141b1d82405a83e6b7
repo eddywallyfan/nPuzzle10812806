@@ -7,6 +7,12 @@
     <string name="title_activity_game_play">GamePlay</string>
     <string name="title_activity_you_win">YouWin</string>
     <string name="you_win">Gefeliciteerd, je hebt gewonnen!</string>
-	<string name="new_game">Nieuw spel</string>
-	<string name="difficulty">Kies de moeilijkheid</string>
+    <string name="new_game">Nieuw spel</string>
+    <string name="difficulty">Kies de moeilijkheid</string>
+    <string name="title_activity_difficulty">Difficulty</string>
+    <string name="makkelijk">Makkelijk</string>
+    <string name="gemiddeld">Gemiddeld</string>
+    <string name="moeilijk">Moeilijk</string>
+    <string name="title_activity_main">MainActivity</string>
+
 </resources>
