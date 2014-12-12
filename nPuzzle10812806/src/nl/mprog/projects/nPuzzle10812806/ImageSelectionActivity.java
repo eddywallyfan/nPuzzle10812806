@@ -38,5 +38,3 @@ public class ImageSelectionActivity extends ListActivity implements OnItemClickL
     }
 }
 			
-	
-
