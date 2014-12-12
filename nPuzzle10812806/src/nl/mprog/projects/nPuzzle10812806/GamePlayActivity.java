@@ -1,6 +1,6 @@
 /* John Wesselingh
  * 10812806
- * Speelscherm
+ * Activity waar het spel in plaats vind
  */
 package nl.mprog.projects.nPuzzle10812806;
 
