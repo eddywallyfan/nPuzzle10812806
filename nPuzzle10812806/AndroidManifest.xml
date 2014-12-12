@@ -4,40 +4,25 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="21" />
+    <uses-sdk 
+        android:minSdkVersion="8" 
+        android:targetSdkVersion="21"/>
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:icon="@drawable/puzzle_001"
+        android:label="@string/app_name" >
         <activity
-            android:name=".MainActivity"
+            android:name=".StartActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".GamePlay"
-            android:label="@string/title_activity_game_play" >
-        </activity>
-        <activity
-            android:name=".YouWin"
-            android:label="@string/title_activity_you_win" >
-        </activity>
-        <activity
-            android:name=".Difficulty"
-            android:label="@string/title_activity_difficulty" >
-        </activity>
-        <activity
-            android:name=".ImageSelection"
-            android:label="@string/app_name" >
-        </activity>
+        <activity android:name=".ImageSelection" android:label="@string/app_name" />
+        <activity android:name=".GamePlay" android:label="@string/app_name" />
+        <activity android:name=".YouWin" android:label="@string/app_name" />
     </application>
 
 </manifest>
