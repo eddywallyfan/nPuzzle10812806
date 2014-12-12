@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Npuzzle</string>
+    <string name="new_game">Nieuw spel</string>
+    <string name="easy">Makkelijk</string>
+    <string name="medium">Normaal</string>
+    <string name="hard">Moeilijk</string>
+    <string name="change_puzzle">Andere puzzel</string>
+    <string name="scoreText">Moves: </string>
+    <string name="score">0</string>
+    <string name="gewonnen">Gefeliciteerd! Je hebt gewonnen en bent nu officieel beter in dit spelletje dan de maker van deze app!!</string>
+    <string name="desc">Foto</string>
+</resources>
